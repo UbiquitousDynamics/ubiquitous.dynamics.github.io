@@ -3,38 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubiquitous Dynamics Lab</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Ubiquitous Dynamics</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Ubiquitous Dynamics Lab</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#join">Join Us</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1 class="logo">Ubiquitous Dynamics</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section id="about">
+    <section class="hero">
+        <div class="container">
+            <h2>Building a Sustainable Future</h2>
+            <p>Innovating through reusable materials, decentralized collaboration, and cutting-edge technology.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
             <h2>About Us</h2>
-            <p>Ubiquitous Dynamics Lab is an independent initiative exploring robotics, sustainability, and decentralized innovation.</p>
-        </section>
-        <section id="projects">
+            <p>We are an independent lab committed to sustainability, solarpunk ideals, and the development of humanoid robots using discarded materials and decentralized approaches.</p>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
             <h2>Our Projects</h2>
-            <p>We create humanoid robots and systems using upcycled materials, blending eco-pragmatism with advanced technology.</p>
-        </section>
-        <section id="join">
-            <h2>Join the Lab</h2>
-            <p>Connect with us to share ideas, collaborate, and push the boundaries of what’s possible.</p>
-            <a href="mailto:info@ubiquitousdynamics.org" class="btn">Contact Us</a>
-        </section>
-    </main>
+            <p>Explore our groundbreaking initiatives in robotics and eco-pragmatism.</p>
+        </div>
+    </section>
     <footer>
-        <p>&copy; 2024 Ubiquitous Dynamics Lab</p>
+        <div class="container">
+            <p>&copy; 2024 Ubiquitous Dynamics. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
     </footer>
-    <script src="scripts/main.js"></script>
 </body>
 </html>
