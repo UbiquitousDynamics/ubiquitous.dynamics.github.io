@@ -5,10 +5,16 @@ body {
     color: #333;
 }
 
+.logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 header {
-    background: #000;
-    color: #fff;
-    padding: 1rem 0;
+    text-align: center;
+    padding: 20px;
 }
 
 header .container {
